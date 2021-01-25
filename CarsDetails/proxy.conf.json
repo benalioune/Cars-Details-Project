@@ -1,0 +1,8 @@
+{
+    "/0K8O": {
+      "target": "http://localhost:4200/0K8O",
+      "secure": false,
+      "logLevel" : "debug"
+    
+    }
+  }

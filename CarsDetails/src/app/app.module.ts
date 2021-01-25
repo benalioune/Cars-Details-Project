@@ -3,6 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CarServiceService } from './car-service.service';
+
+
+
 
 @NgModule({
   declarations: [
@@ -10,9 +15,10 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [ CarServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
